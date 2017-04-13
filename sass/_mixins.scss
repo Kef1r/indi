@@ -1,0 +1,15 @@
+@mixin monserrat($size, $weight) {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin font-input-pholder {
+  //color: red;
+  color: #636363;
+  @include monserrat(16px, 300);
+  background-color: transparent;
+  //font-family: "Montserrat", Arial, sans-serif;
+  //font-size: 16px;
+  //font-weight: 300;
+}
